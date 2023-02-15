@@ -2,36 +2,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   
 }
 body {
-
 background-image: url("https://cdn.discordapp.com/attachments/1034562900372766843/1073239426509049967/design1_image1.jpg");
     background-size: cover;
-    
 }
 
 h1 {
-    font-size: 230%;
+    font-size: 200%;
     font-family:cursive;
     color: rgb(255, 255, 255);
     background-color: rgb(5, 167, 167);
   min-height: 10vh;
-   padding-left: 16%;
-   padding-top: 1%;
+   padding-top: 7%;
    text-shadow: black 1px 1px 1px;
 font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
-.logo-img {
-  height: 11.2%;
- width: 16%;
-  position: absolute;
-  top: 0px;
-  padding-left: 10%;
-  
+.logo-img{
+   display: flex;
+   height: 15vh;
+   margin-left: 20px;
 }
-  
+
+header{
+    display: flex;
+    background-color: rgb(5, 167, 167);
+}
+
+
 
 nav {
     padding-top: 0.5%;
@@ -39,8 +38,6 @@ nav {
  display: flex;
  justify-content: space-around;
  margin-bottom: 3%;
- 
- 
 }
  
 nav a{
@@ -48,81 +45,242 @@ nav a{
     font-size: 1.2rem;
     display: flex;
     margin-bottom: 15px;
-   
 }
 
 .contenedor {
-    height: 52.5vh;
+   height: 500px;
     margin: 6%;
 display: flex;
-flex-direction: column;
 background-color: rgb(255, 255, 255);
-
 }
 
 
 
-article {
+#eventos {
+    display: flex;
+}
+
+main {
     display: flex;
     flex-direction: column;
-  
-
 }
+
+
+.contenedor-index{
+    display: flex;
+    flex-direction: column;
+   width: 93vh;
+}
+
+article{
+    height: 50%;
+}
+
 
 h2{
     font-size: 2rem;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
    border: black solid 1px;
-
 }
 
 h3 {
     font-size: 1.5rem;
     padding-top: 15px;
+    padding-bottom: 15px;
     border: black solid 1px;
-   
-    
 }
 
 p {
     font-size: 1.5rem;
-    padding-top: 15px;
-    margin-bottom: 15px;
-    
-    
- 
 }
 
+
+
 .imagen1 {
-    min-height: 10vh;
-   width: 80vh;
+    height: 100%;
 }
 
 .contenedor-about {
-    height: 100vh;
+    height: 100%;
     background-color: white;
     display: flex;
     margin: 6%;
 }
 
+
+
 .imagen2 {
-    min-height: 10vh;
-  width: 100vh;
-  
+    height: 100%;
+    width: 90vh;
 }
 
-.contenedor-rules{
-    height: 100vh;
+
+.contenedor-reglas{
+    height: 100%;
     background-color: white;
     margin: 6%;
-    
+    display: flex;
 }
 
-.titulo-rules, .sportmanship, .regulations{
+.titulo-reglas, .deportividad, .regulaciones, .allplay{
     color: rgb(6, 59, 119);
     border: none;
-   
+   align-self: center;
+   display: flex;
+}
+
+.deportividad {
+    margin-bottom: 30px;
 }
 
 
+.parrafo-reglas {
+   align-self:  center;
+   font-size: 1.5rem;
+}
 
+.deportividad, .allplay {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    align-self: flex-start;
+    font-size: 2rem;
+    margin-left: 2%;
+}
+
+.texto-deportividad {
+    font-size: 1.5rem;
+    margin-left: 7%;
+    text-align: left;
+    list-style: none;
+}
+
+.texto-regulaciones {
+    margin-left: 2%;
+   padding-bottom: 20px;
+}
+
+.texto-competicion, .texto-regulaciones, .texto-allplay2, .grupos, .alpha1, .alpha2, .alfa3, .alfa4{
+    margin-left: 2%;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
+.alpha1, .alpha2, .alfa3, .alfa4 {
+    list-style-type: lower-alpha;
+}
+
+
+.nada {
+    list-style: none;
+}
+
+.texto-allplay{
+    font-size: 1.5rem;
+    margin-left: 7%;
+    text-align: left;
+    list-style: none;
+}
+
+.texto-allplay2{
+    margin-left: 14%;
+}
+
+.contenedor-informacion {
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6%;
+}
+
+.titulo-informacion {
+    color: rgb(6, 59, 119);
+    border: none;
+    font-size: 3rem;
+    padding-left: 230px;
+}
+
+.parrafo-informacion {
+   font-size: 2rem;
+   padding-top: 30px;
+  margin-left: 3%;
+}
+
+.parrafo-informacion2 {
+    font-size: 1.5rem;
+    padding-top: 15px;
+    margin-left: 3%;
+}
+
+table{
+    width: 100vh;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-collapse:collapse;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 5%;
+}
+
+
+td {
+padding-top: 10px;
+   padding-bottom: 15px;
+ padding-right: 30px;
+ padding-left: 60px;
+}
+
+
+.fecha {
+    text-align: right;
+}
+
+
+.instalacion{
+    padding-top: 40px;
+    font-weight:normal;
+    border: none;
+}
+
+
+.informacion-adicional, .dirigirse-a {
+    font-size: 1.5rem;
+    font-weight:normal;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.telefono{
+    font-size: 1.5rem;
+    font-weight:normal;
+    border: none;
+}
+
+.mail {
+    font-size: 1.5rem;
+    border: none;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-contact {
+    background-color: white;
+    height: 100%;
+}
+
+.contact1 {
+padding-bottom: 15px;
+text-align: center;
+}
+
+.contact2{
+    text-align: center;
+}
+.imagen3 {
+    align-self: center;
+}

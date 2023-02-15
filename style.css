@@ -160,13 +160,13 @@ p {
    padding-bottom: 20px;
 }
 
-.texto-competicion, .texto-regulaciones, .texto-allplay2, .grupos, .alpha1, .alpha2, .alfa3, .alfa4{
+.texto-competicion, .texto-regulaciones, .texto-allplay2, .grupos, .alfa1, .alfa2, .alfa3, .alfa4{
     margin-left: 2%;
     font-size: 1.5rem;
     padding-bottom: 30px;
 }
 
-.alpha1, .alpha2, .alfa3, .alfa4 {
+.alfa1, .alfa2, .alfa3, .alfa4 {
     list-style-type: lower-alpha;
 }
 
@@ -273,12 +273,12 @@ padding-top: 10px;
     height: 100%;
 }
 
-.contact1 {
+.contacto1 {
 padding-bottom: 15px;
 text-align: center;
 }
 
-.contact2{
+.contacto2{
     text-align: center;
 }
 .imagen3 {

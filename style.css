@@ -220,17 +220,23 @@ table{
     font-size: 20px;
     border-collapse:collapse;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
     margin-top: 5%;
+    background-color: rgb(67, 78, 134);
+    border: black 2px solid;
 }
 
 
 td {
-padding-top: 10px;
-   padding-bottom: 15px;
+padding-top: 50px;
+   padding-bottom: 50px;
  padding-right: 30px;
  padding-left: 60px;
+ background-color: #7d867f;
+ border: black 2px solid;
+ 
 }
+
+
 
 
 .fecha {
@@ -271,6 +277,7 @@ padding-top: 10px;
 .contenedor-contact {
     background-color: white;
     height: 100%;
+ 
 }
 
 .contacto1 {
@@ -283,4 +290,52 @@ text-align: center;
 }
 .imagen3 {
     align-self: center;
+}
+
+#preescuela {
+padding-right: 10px;
+}
+
+form {
+    color: rgb(255, 255, 255);
+   height: 20%;
+    font-size: 2rem;
+}
+
+button {
+    background-color: rgb(59, 221, 59);
+    height: 2rem;
+    width: 50px;
+    
+}
+
+.contenedor-registration {
+    height: 20%;
+    background-color: rgb(13, 36, 78);
+    margin: 10%;
+    width: 80%;
+}
+
+
+input[type=text], input[type=number]{
+    width: 20%;
+    border: 2px solid #acacac;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+
+.espacio {
+    margin-right: 100px;
+}
+
+
+
+
+h4 {
+    font-size: 80px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
 }

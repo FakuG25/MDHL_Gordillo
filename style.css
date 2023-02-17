@@ -8,6 +8,10 @@ background-image: url("https://cdn.discordapp.com/attachments/103456290037276684
     background-size: cover;
 }
 
+.index_body {
+    overflow: hidden;
+}
+
 h1 {
     font-size: 200%;
     font-family:cursive;
@@ -19,7 +23,7 @@ h1 {
 font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
-.logo-img{
+.logo_img{
    display: flex;
    height: 15vh;
    margin-left: 20px;
@@ -60,13 +64,14 @@ background-color: rgb(255, 255, 255);
     display: flex;
 }
 
+
 main {
     display: flex;
     flex-direction: column;
 }
 
 
-.contenedor-index{
+.contenedor_index{
     display: flex;
     flex-direction: column;
    width: 93vh;
@@ -101,7 +106,7 @@ p {
     height: 100%;
 }
 
-.contenedor-about {
+.contenedor_about {
     height: 100%;
     background-color: white;
     display: flex;
@@ -112,18 +117,20 @@ p {
 
 .imagen2 {
     height: 100%;
-    width: 90vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100%;
 }
 
 
-.contenedor-reglas{
+.contenedor_reglas{
     height: 100%;
     background-color: white;
     margin: 6%;
     display: flex;
 }
 
-.titulo-reglas, .deportividad, .regulaciones, .allplay{
+.titulo_reglas, .deportividad, .regulaciones, .allplay{
     color: rgb(6, 59, 119);
     border: none;
    align-self: center;
@@ -135,7 +142,7 @@ p {
 }
 
 
-.parrafo-reglas {
+.parrafo_reglas {
    align-self:  center;
    font-size: 1.5rem;
 }
@@ -148,19 +155,19 @@ p {
     margin-left: 2%;
 }
 
-.texto-deportividad {
+.texto_deportividad {
     font-size: 1.5rem;
     margin-left: 7%;
     text-align: left;
     list-style: none;
 }
 
-.texto-regulaciones {
+.texto_regulaciones {
     margin-left: 2%;
    padding-bottom: 20px;
 }
 
-.texto-competicion, .texto-regulaciones, .texto-allplay2, .grupos, .alfa1, .alfa2, .alfa3, .alfa4{
+.texto_competicion, .texto_regulaciones, .texto_allplay2, .grupos, .alfa1, .alfa2, .alfa3, .alfa4{
     margin-left: 2%;
     font-size: 1.5rem;
     padding-bottom: 30px;
@@ -175,18 +182,18 @@ p {
     list-style: none;
 }
 
-.texto-allplay{
+.texto_allplay{
     font-size: 1.5rem;
     margin-left: 7%;
     text-align: left;
     list-style: none;
 }
 
-.texto-allplay2{
+.texto_allplay2{
     margin-left: 14%;
 }
 
-.contenedor-informacion {
+.contenedor_informacion {
     height: 100%;
     background-color: white;
     display: flex;
@@ -195,20 +202,20 @@ p {
     margin: 6%;
 }
 
-.titulo-informacion {
+.titulo_informacion {
     color: rgb(6, 59, 119);
     border: none;
     font-size: 3rem;
     padding-left: 230px;
 }
 
-.parrafo-informacion {
+.parrafo_informacion {
    font-size: 2rem;
    padding-top: 30px;
   margin-left: 3%;
 }
 
-.parrafo-informacion2 {
+.parrafo_informacion2 {
     font-size: 1.5rem;
     padding-top: 15px;
     margin-left: 3%;
@@ -251,7 +258,7 @@ padding-top: 50px;
 }
 
 
-.informacion-adicional, .dirigirse-a {
+.informacion_adicional, .dirigirse_a {
     font-size: 1.5rem;
     font-weight:normal;
     margin-bottom: 20px;
@@ -269,12 +276,12 @@ padding-top: 50px;
     border: none;
 }
 
-.contenedor-footer{
+.contenedor_footer{
     display: flex;
     justify-content: space-between;
 }
 
-.contenedor-contact {
+.contenedor_contact {
     background-color: white;
     height: 100%;
  
@@ -306,10 +313,9 @@ button {
     background-color: rgb(59, 221, 59);
     height: 2rem;
     width: 50px;
-    
 }
 
-.contenedor-registration {
+.contenedor_registration {
     height: 20%;
     background-color: rgb(13, 36, 78);
     margin: 10%;
